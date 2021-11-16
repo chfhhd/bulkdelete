@@ -6,7 +6,7 @@ const application = require('commander')
 const config = require('./config.json')
 
 application
-    .version('1.0.0')
+    .version('1.0.2')
     .name('bulkdelete')
     .description('Quickly search and delete multiple GitHub repositories by name')
     .requiredOption('-t,--token <your GitHub access token>', 'your GitHub access token', config.GITHUB_TOKEN)

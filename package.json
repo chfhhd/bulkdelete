@@ -1,6 +1,6 @@
 {
   "name": "bulkdelete",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Quickly search and delete multiple GitHub repositories by name",
   "main": "bulkdelete.js",
   "bin": {
