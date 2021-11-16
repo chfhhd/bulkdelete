@@ -1,0 +1,30 @@
+{
+  "name": "bulkdelete",
+  "version": "1.0.0",
+  "description": "Quickly search and delete multiple GitHub repositories by name",
+  "main": "bulkdelete.js",
+  "bin": {
+    "bulkdelete": "./bulkdelete.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Ch. Hahn",
+    "email": "chrhhn@gmail.com",
+    "url": "https://github.com/chfhhd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chfhhd/bulkdelete.git"
+  },
+  "keywords": [
+    "GIT",
+    "GitHub"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "octokit": "^1.7.0"
+  }
+}
